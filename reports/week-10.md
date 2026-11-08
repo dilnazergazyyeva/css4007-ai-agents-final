@@ -1,29 +1,37 @@
-# Semester Week 10 Progress Report
+## Week 10 Progress Report
 
 ## Completed Work
 
-TODO
+- Forked the instructor repository and cloned it.
+- Read the A-level requirements and the guardrail rules.
+- Chose the project: a deadline planner agent for students.
+- Wrote the proposal (`reports/proposal.md`): problem, tools, architecture, 12 planned tests and a plan for each week.
 
 ## Important Commits
 
-TODO
+- Commit hash: FILL IN after you push
+- Description: Add project proposal for the deadline planner agent
+- Link: FILL IN (link to the commit on your GitHub fork)
 
 ## Current Functionality
 
-TODO
+There is no working application yet. This week was planning only. The repository has the proposal and this report.
 
 ## Problems Encountered
 
-TODO
+I did not have a topic at first. It was hard to see what makes an A-level agent different from a simple chatbot with tools.
 
 ## Solutions
 
-TODO
+I compared a few topic ideas and picked the one where all guardrails fit naturally: read-only tools, one tool that writes a file and needs approval, and mock data where I can add a malicious note for the injection test. To understand A level, I turned the requirements into a short list: tools, state, limits, validation, approval, trace, tests.
 
 ## What I Learned
 
-TODO
+An agent is not just a model with tools. The program around the model decides what is allowed. If a rule only exists in the prompt, the model can break it. If it is checked in code, it cannot. I also learned that text from documents has to be treated as data and not as instructions, because a document can try to give commands to the agent.
 
 ## Next Week
 
-TODO
+- Create `.env` from `_env.example` and make sure it is not committed.
+- Make the mock data file with students, courses and deadlines (one course with no deadlines).
+- Connect the LLM API and get the first working request.
+- Start the project README.
