@@ -9,9 +9,9 @@
 
 ## Important Commits
 
-- Commit hash: FILL IN after you push
+- Commit hash: 0d0110f
 - Description: Add project proposal for the deadline planner agent
-- Link: FILL IN (link to the commit on your GitHub fork)
+- Link: https://github.com/dilnazergazyyeva/css4007-ai-agents-final/commit/0d0110fcc0cd7df0da4ea368a03cf868c691df62
 
 ## Current Functionality
 
